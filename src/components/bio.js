@@ -59,9 +59,9 @@ const Bio = () => {
       <p>
         Written by <strong>{author.name}</strong> {author.summary}
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow her on Twitter
-        </a>
+        <p>
+          You should follow her on <a href={`https://twitter.com/${social.twitter}`}>Twitter</a> but she never tweets, so &#x1F40C;.
+        </p>
       </p>
     </div>
   )

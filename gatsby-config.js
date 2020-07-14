@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: `/gatsby-blog`,
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Engineer the new you`,
     author: {
       name: `Kira`,
       summary: `who lives and works in her house and basically never leaves anymore.`,
@@ -61,13 +61,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Engineer the new you`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/profile-pic.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
